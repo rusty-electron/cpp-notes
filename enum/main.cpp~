@@ -1,0 +1,12 @@
+#include<iostream>
+Enum Example: unsigned char{
+  A = 5, B, C;
+}
+int main(){
+  Example value = B;
+  if (value == 5){
+    cout<<"pass";
+  }else{
+    cout<<"fail";
+  }
+}
